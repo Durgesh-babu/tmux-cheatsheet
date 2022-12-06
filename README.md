@@ -18,7 +18,7 @@ tmux new-session -s <Session-name>
 tmux attach -t <Session-name>
 ```
 ---
-> ### Dettach from a session.
+> ### Detach from a session.
 ```bash
 Prefix d
 ```
