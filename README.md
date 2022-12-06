@@ -1,5 +1,29 @@
 # Tmux Cheat-sheet
 By default the Prefix command is Ctrl+b.
+
+## Contents
+- Session
+    - [New session](#new-session)  
+    - [New named session](#new-named-session)
+    - [Attach to a target session](#attach-to-a-target-session)
+    - [Dettach from a session](#detach-from-a-session)
+    - [List sessions](#list-all-sessions)
+    - [Kill session](#kill-a-session)
+- Window
+    - [New window](#new-window)
+    - [Switching windows](#switching-windows)
+    - [List windows](#list-all-windows)
+    - [Rename window](#renaming-a-window)
+    - [Kill window](#kill-window)
+- Pane
+    - [New pane](#new-pane)
+    - [Navigate pane](#navigate-panes)
+    - [List panes](#list-panes)
+    - [Delete pane](#delete-pane)
+    - [Sizing pane](#sizing-pane)
+    - [Pane position](#changing-pane-position)
+    - [Pane layouts](#pane-layouts)
+----
 ## New session.
 ```bash
 tmux
@@ -86,7 +110,7 @@ Prefix + w
 Prefix + ,
 ```
 ---
-## Kill a target window
+## Kill window
 ```bash
 tmux kill-window -t <window-name>
 ```
