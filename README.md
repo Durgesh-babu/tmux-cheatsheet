@@ -102,3 +102,77 @@ or
 ```bash
 Ctrl + d
 ```
+---
+## New pane
+Horizontal
+```bash
+tmux split-window -h
+```
+or
+```bash
+Prefix + %
+```
+Vertical
+```bash
+tmux split-window -v
+```
+or
+```bash
+Prefix + "
+```
+---
+## Navigate panes
+```bash
+Prefix + Up
+Prefix + Down
+Prefix + Left
+Prefix + Right
+```
+---
+## List panes
+```bash
+Prefix + q
+```
+---
+## Delete pane
+```bash
+Prefix + x
+```
+or
+```bash
+Ctrl + d
+```
+---
+## Sizing pane
+S is the size in number.
+D/U/L/R represent Down/Up/Left/Right.
+```bash
+tmux resize-pane -D S
+tmux resize-pane -U S
+tmux resize-pane -L S
+tmux resize-pane -R S
+```
+---
+## Changing pane position
+Rotate pane
+```bash
+Prefix + Ctrl + o
+```
+Swap panes
+```bash
+Prefix + {
+Prefix + }
+```
+---
+## Pane Layouts
+```bash
+tmux select-layout even-horizontal
+tmux select-layout even-vertical
+tmux select-layout main-vertical
+tmux select-layout main-horizontal
+tmux select-layout tiled
+```
+or toggle between
+```bash
+Prefix + Space
+```
